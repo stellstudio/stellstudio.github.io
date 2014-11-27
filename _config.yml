@@ -2,9 +2,9 @@
 baseurl: 
 
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Stell Studio
+email: nathan.stell.2@gmail.com
+description: "Learn how to play the violin...without leaving your house."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
