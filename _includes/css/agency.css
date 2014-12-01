@@ -351,6 +351,23 @@ section h3.section-subheading {
     text-transform: none;
 }
 
+/*NATHAN STELL PUT THIS HERE*/
+#gallery {
+    background-color: #444
+    padding: 100px;
+    width: 520px;
+}
+
+#gallery ul { list-style: none; }
+#gallery ul li { display: inline; }
+#gallery ul a:hover img {
+    border: 50px solid #fff;
+    border-width: 5px 5px 20px;
+    color: #fff;
+}
+#gallery ul a:hover { color: #fff; }
+/*NATHAN STELL STOPPED HERE*/
+
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
@@ -495,7 +512,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #58ACFA;
+    background-color: #848484;
 /* it was this... #{{ site.color.primary }}; ... in case you need to change it back*/
 }
 
