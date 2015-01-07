@@ -30,3 +30,21 @@
 	margin-left: 15px;
 
 }
+
+.pricing .offer {
+	background-color: #969491;
+	border-radius: 98px 98px 98px 98px;
+	-moz-border-radius: 98px 98px 98px 98px;
+	-webkit-border-radius: 98px 98px 98px 98px;
+	width: 130px;
+	height: 130px;
+	padding-top: 26px;
+	display: block;
+	text-align: center;
+	line-height: 1.4em;
+}
+
+.pricing a.offer:hover {
+	text-decoration: none;
+	background-color: red;
+}
