@@ -1,115 +1,27 @@
 <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Testimonials</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-
-<div class="gallery">
-        <div class="col-md-3">
-            <a href="img/portfolio/students/4a-old.jpg" target="_blank">
-                <img src="img/portfolio/students/4a.jpg" style="width:200px;height:200px">
+<section id="portfolio" class="testimonials bg-light-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Testimonials</h2>
+      </div>
+    </div>
+    <div class="gallery">
+      {% for testimonial in page.testimonials %}
+        <div class="row">
+          <div class="col-sm-3">
+            <a href="img/portfolio/students/{{ testimonial.picture }}-old.jpg" target="_blank">
+              <img src="img/portfolio/students/{{ testimonial.picture }}.jpg" >
             </a>
-            <h3 class="section-subheading text-muted">"Pacifica loves her video lessons with Nathan.  He has a way of making everything appear like a fun game while being mindful of her attention and mood.
-            Pacifica has so much fun with Nathan, she doesn't realize how much she's learning." - Raquel Morrison (Pacifica, age 4)</h3>
+          </div>
+          <blockquote class="col-sm-9">
+            <div class="lquote">&ldquo;</div>
+            <div class="quote">{{ testimonial.quote }}</div>
+            <div class="from"> - {{ testimonial.from }}</div>
+            <div class="rquote">&rdquo;</div>
+          </blockquote>
         </div>
-
-        <div class="col-md-3">
-            <a href="img/portfolio/students/3a-old.jpg" target="_blank">
-                <img src="img/portfolio/students/3a.jpg" style="width:200px;height:200px">
-            </a>
-            <h3 class="section-subheading text-muted">"There is a visceral value to the music of Nathan Stell.  Articulate, yet impulsive.  He communicates sonically better than anyone I know." - Austin Savage (age 33)</h3>
-        </div>
-
-        <div class="col-md-3">                     
-            <a href="img/portfolio/students/3b-old.jpg" target="_blank">
-                <img src="img/portfolio/students/3b.jpg" style="width:200px;height:200px">
-            </a>
-            <h3 class="section-subheading text-muted">"Nathan breaks material down to a very fundamental level.  He has a passion for his craft and the patience of a Tibetan monk." - Frank Ryan Leal (age 27)</h3>
-        </div>
-
-        <div class="col-md-3">
-            <a href="img/portfolio/students/2a-old.jpg" target="_blank">
-                <img src="img/portfolio/students/2a.jpg" style="   width:200px;height:200px">
-            </a>
-            <h3 class="section-subheading text-muted">"this is a test"</h3>
-        </div>
-
-        <div class="col-md-3">
-            <a href="img/portfolio/students/1a-old.jpg" target="_blank">
-                <img src="img/portfolio/students/1a.jpg" style="   width:200px;height:200px">
-            </a>
-            <h3 class="section-subheading text-muted">"this is a test"</h3>
-        </div>
-
-        <div class="col-md-3">
-            <a href="img/portfolio/students/4a-old.jpg" target="_blank">
-                <img src="img/portfolio/students/4a.jpg" style="   width:200px;height:200px">
-            </a>
-            <h3 class="section-subheading text-muted">"this is a test 1"</h3>
-        </div>        
-        <div class="col-md-3">
-            <a href="img/portfolio/students/3a-old.jpg" target="_blank">
-                <img src="img/portfolio/students/3a.jpg" style="width:200px;height:200px">
-            </a>
-            <h3 class="section-subheading text-muted">"this is a test 2"</h3>
-        </div>
-        <div class="col-md-3">
-            <a href="img/portfolio/students/3b-old.jpg" target="_blank">
-                <img src="img/portfolio/students/3b.jpg" style="width:200px;height:200px">
-            </a>
-            <h3 class="section-subheading text-muted">"this is a test 3"</h3>
-        </div>
-        <div class="col-md-3">
-            <a href="img/portfolio/students/2a-old.jpg" target="_blank">
-                <img src="img/portfolio/students/2a.jpg" style="width:200px;height:200px">
-            </a>
-            <h3 class="section-subheading text-muted">"this is a test 4"</h3>
-        </div>
-        <div class="col-md-3">
-            <a href="img/portfolio/students/1a-old.jpg" target="_blank">
-                <img src="img/portfolio/students/1a.jpg" style="width:200px;height:200px">
-            </a>
-            <h3 class="section-subheading text-muted">"this is a test 5"</h3>
-        </div>
-        <div class="col-md-3">
-            <a href="img/portfolio/students/1b-old.jpg" target="_blank">
-                <img src="img/portfolio/students/1b.jpg" style="width:200px;height:200px">
-            </a>
-            <h3 class="section-subheading text-muted">"this is a test 6"</h3>
-        </div>
-        <div class="col-md-3">
-            <a href="img/portfolio/students/5a-old.jpg" target="_blank">
-                <img src="img/portfolio/students/5a.jpg" style="width:200px;height:200px">
-            </a>
-            <h3 class="section-subheading text-muted">"Nathan is an amazing musician and an exceptional teacher.  He modifies the lesson plan to accomodate each student's level and learning style.  Highly recommended!" - Tina Huey (Chase, age 5)"</h3>
-        </div>
-        <div class="col-md-3">
-            <a href="img/portfolio/students/5b-old.jpg" target="_blank">
-                <img src="img/portfolio/students/5b.jpg" style="width:200px;height:200px">
-            </a>
-            <h3 class="section-subheading text-muted">"this is a test 8"</h3>
-        </div>
-</div>
-
-
-
-<!--                     <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive" alt="">
-                    </a>
- --><!--                     <div class="portfolio-caption">
-                        <h4>{{ post.title }}</h4>
-                        <p class="text-muted">{{ post.subtitle }}</p>
-                    </div>
- -->
-        </div>
-    </section>
+      {% endfor %}
+    </div>
+  </div>
+</section>

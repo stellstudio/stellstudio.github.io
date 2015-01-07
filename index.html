@@ -1,20 +1,30 @@
 ---
 layout: default
+
+testimonials:
+- picture: 4a
+  quote: >
+    Pacifica loves her video lessons with Nathan.  He has a way of making everything appear like a fun game while being mindful of her attention and mood.
+    Pacifica has so much fun with Nathan, she doesn't realize how much she's learning.
+  from: Raquel Morrison (Pacifica, age 4)
+- picture: 3a
+  quote: There is a visceral value to the music of Nathan Stell.  Articulate, yet impulsive.  He communicates sonically better than anyone I know.
+  from: Austin Savage (age 33)
+- picture: 3b
+  quote: Nathan breaks material down to a very fundamental level.  He has a passion for his craft and the patience of a Tibetan monk.
+  from: Frank Ryan Leal (age 27)
+- picture: 5a
+  quote: Nathan is an amazing musician and an exceptional teacher.  He modifies the lesson plan to accomodate each student's level and learning style.  Highly recommended!
+  from: Tina Huey (Chase, age 5)   
 ---
 
-<div class="home">
-
-  <h1>Posts</h1>
-
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+    {% include header.html %}
+    {% include services.html %}
+    {% include about.html %}
+    {% include portfolio_grid.html %}
+    {% include team.html %}
+    {% include clients.html %}
+    {% include contact.html %}
+    {% include footer.html %}
+    {% include modals.html %}
+    {% include js.html %}

@@ -1,0 +1,32 @@
+.testimonials a img {
+	width: 100%;
+	padding-bottom: 15px;
+}
+
+.testimonials blockquote {
+	position: relative;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  padding-left: 38px;
+}
+
+.testimonials blockquote .lquote {
+	font-size: 100px;
+	position: absolute;
+	left: -5px;
+	top: -35px;
+}
+
+.testimonials blockquote .rquote {
+	font-size: 100px;
+	position: absolute;
+	right: -5px;
+	bottom: -75px;
+}
+
+.testimonials blockquote .from {
+	font-style: italic;
+	margin-top: 15px;
+	margin-left: 15px;
+
+}
